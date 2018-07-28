@@ -1,0 +1,415 @@
+body{
+	font-family: 'Yahei',
+	}
+	/*顶部状态条*/
+.header_con{
+	height: 29px;
+	border-bottom: 1px solid #ddd;
+	background-color: #f7f7f7;
+}
+
+.header{
+	width: 1200px;
+	height: 29px;
+	margin: 0 auto;
+}	
+
+.welcome{
+	font: 12px/29px 'Yahei';
+	color: #666;
+}
+
+
+
+.user_info{
+	font:12px/29px 'Yahei';
+	color:#666;
+}
+
+.user_login_link a, .user_shopping a{
+	color: #666;
+} 
+
+.user_login_link a:hover, .user_shopping a:hover{
+	color: #f80;
+}
+
+.user_login_link span, .user_shopping span{
+	padding: 0 10px;
+	color: #cecece;
+}
+
+.user_welcome{
+	display: none; 
+}
+
+.user_welcome em{
+	color: #f80;
+}
+
+/*logo search chart*/
+.logo_bar{
+	width: 1200px;
+	height: 115px;
+	margin:0 auto;
+}
+
+.logo{
+	width: 151px;
+	height: 59px;
+	margin:29px 0 0 17px;
+	background: url(../img/logo.png);
+}
+
+.search{
+	width: 618px;
+	height: 38px;
+	border:1px solid #37ab40;
+	margin: 34px 0 0 123px;
+	background:url(../img/icons.png) 8px 9px no-repeat;
+}
+
+.input_text{
+	width: 470px;
+	height: 38px;
+	border: 0px;
+	margin-left: 37px;
+	outline: none;   /*取消丑陋的边框*/
+}
+
+.input_search{
+	width: 100px;
+	height: 38px;
+	background-color: #37ab40;
+	border: 0;
+	font: 14px/38px 'Yahei';
+	color: #fff;
+	cursor: pointer;    /*设置指针手的形状*/
+}
+
+.chart{
+	width: 200px;
+	height: 40px;
+	margin-top: 34px;
+}
+
+.chart a{
+	width: 158px; 
+	height: 38px;
+	border:1px solid #ddd;
+	font: 14px/38px 'Yahei';
+	color: #37ab40;
+	text-indent: 56px;
+	background: url(../img/icons.png) 17px -43px no-repeat  #f7f7f7;
+}
+
+.chart span{
+	width: 40px;
+	height: 40px;
+	background-color: #f80;
+	font: bold 18px/40px 'Yahei';
+	color: #fff;
+	text-align: center;
+}
+
+/* 次级菜单*/
+.sub_menu_con{
+	height: 40px;
+	border-bottom: 2px solid #37ab40;
+}
+
+.sub_menu{
+	width: 1200px;
+	height: 40px;
+	margin: 0 auto;
+}
+
+.sub_menu h1{
+	width: 200px;
+	height: 40px;
+	background-color: #37ab40;
+	text-align: center;
+	font:bold 14px/40px 'Yahei';
+	color: #fff;
+}
+
+.sub_menu ul{
+	overflow: hidden;
+}
+
+.sub_menu li{
+	float: left;
+	height: 18px;
+	padding:0 25px;
+	border-left: 1px solid #666;
+	margin-left: -1px;
+	margin-top: 13px; 
+}
+
+.sub_menu li a{
+	font:14px/14px 'Yahei';
+	color:#666;
+}
+
+.sub_menu li a:hover{
+	color:#f80;
+}
+
+ /*主菜单*/
+.center_con{
+	width: 1200px;
+	height: 270px;
+	margin: 0 auto;
+}
+
+.center_con .main_menu{
+	width: 200px;
+	height: 270px;
+	overflow: hidden;
+}
+
+.center_con .main_menu li{
+	width: 198px;
+	height: 44px;
+	border:1px solid #eee;
+	margin-top: -1px;
+	background: url(../img/icons.png) 166px -385px no-repeat;
+}
+
+.center_con .main_menu li a{
+	display: block;
+	width:192px;
+	height: 44px;
+	text-indent: 72px;
+	font:14px/44px 'Yahei';
+	color:#333;
+	background: url(../img/icons.png) 33px 0px no-repeat;
+}
+
+.center_con .main_menu li:hover{
+	background-color: #37ab40;
+}
+
+.center_con .main_menu li .fruit{
+	background-position: 33px -90px;
+}
+
+.center_con .main_menu li .seafood{
+	background-position: 31px -140px;
+}
+
+.center_con .main_menu li .meat{
+	background-position: 33px -190px;
+}
+
+.center_con .main_menu li .egg{
+	background-position: 35px -240px;
+}
+
+.center_con .main_menu li .vegetable{
+	background-position: 31px -290px;
+}
+
+.center_con .main_menu li .ice{
+	background-position: 31px -340px;
+}
+
+.slide_con{
+	width: 760px;
+	height: 270px;
+	position: relative;
+}
+
+.slide_con .prev{
+	position: absolute;
+	left: 11px;
+	top: 122px;
+	width: 15px;
+	height: 23px;
+	background: url(../img/icons.png) -1px -451px no-repeat;
+	cursor: pointer;
+}
+
+.slide_con .next{
+	position: absolute;
+	right: 11px;
+	top: 122px;
+	width: 15px;
+	height: 23px;
+	background: url(../img/icons.png) -1px -501px no-repeat;
+	cursor: pointer;
+}
+
+.points{
+	position: absolute;
+	width: 100%;
+	height: 11px;
+	left: 0;
+	bottom: 9px;
+	text-align: center;
+	font-size: 0px;
+}
+
+.slide_con .points li{
+	width: 11px;
+	height: 11px;
+	display: inline-block;
+	background-color:#9f9f9f;
+	margin: 0 5px;
+	border-radius: 100%;
+}
+
+.slide_con .points .active{
+	background-color: #cecece;
+}
+
+.adv{
+	width: 240px;
+	height: 270px;
+}
+
+/*解决一些浏览器不兼容，图片下面出现白边的现象*/
+.adv a{
+	float: left;
+	width: 240px;
+	height: 135px;
+}
+
+/*解决一些浏览器不兼容，图片下面出现白边的现象*/
+.adv a img{
+	display: block;
+}
+
+.common_module{
+	width: 1200px;
+	height: 340px;
+	margin:18px auto 0;
+
+}
+
+.common_module .common_title{
+	height: 38px;
+	border-bottom: 2px solid #42ad46;
+}
+
+.common_module .common_title h3{
+	font:  bold 16px/38px 'Yahei';
+	color:#37ab40;
+}
+
+.common_module .common_title ul{
+	height: 12px;
+	margin:12px 0 0 20px;
+}
+
+.common_module .common_title li{
+	font-size: 12px;
+	margin:0 10px;
+}
+
+.common_module .common_title li a{
+	color: #666;
+	line-height: 10px;
+}
+
+.common_module .common_title li a:hover{
+	color:#f80;
+}
+
+.common_module .common_title span{
+	color: #666;
+}
+
+.common_module .common_title .more{
+	height: 38px;
+	font: 12px/38px 'Yahei';
+	color: #666;
+	padding-right: 10px;
+}
+
+.common_module .common_title .more:hover{
+	color:#f80;
+}
+
+.common_module .common_goods_list{
+	width: 1200px;
+	height: 300px;
+}
+
+.common_goods_list .goods_banner{
+	width: 200px;
+	height: 300px;
+}
+
+.common_goods_list .goods_list{
+	width: 1000px;
+	height: 300px;
+}
+
+.common_goods_list .goods_list li{
+	width: 249px; 
+	height: 299px;
+	border-right: 1px solid #ededed;
+	border-bottom: 1px solid #ededed;
+	float: left;
+}
+
+.common_goods_list .goods_list li:hover{
+	width: 248px;
+	height: 298px;
+	border:1px solid #ff0;
+}
+
+.common_goods_list .goods_list li h4{
+	height: 52px;
+	font:14px/52px 'Yahei';
+	color:#666;
+	text-align: center;
+}
+
+.common_goods_list .goods_list li a{
+	display: block;
+	width: 180px;
+	height: 180px;
+	margin: 0 auto;
+}
+
+.common_goods_list .goods_list li p{
+	height: 52px;
+	font: bold 20px/52px 'Yahei';
+	color: #c40000;
+	text-align: center;
+}
+
+.footer{
+	height: 145px;
+	border-top: 2px solid #4ab14e;
+	margin-top: 30px;
+}
+
+.footer .links{
+	text-align: center;
+	margin-top: 40px;
+}
+
+.footer .links a{
+	color: #4e4e4e;
+	font-size: 12px;
+}
+
+.footer .links a:hover{
+	color: #f80;
+}
+
+.footer .links span{
+	color: #4e4e4e;
+	margin:0 10px;
+}
+
+.footer p{
+	text-align: center;
+	margin-top: 15px;
+	color: #4e4e4e;
+	font-size: 12px;
+}
+
